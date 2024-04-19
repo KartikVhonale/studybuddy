@@ -1,0 +1,65 @@
+
+
+.container2 {
+    width: 80%;
+    margin: 0;
+    padding: 20px;
+    display: flex; 
+}
+
+/* Main Content */
+.main {
+    flex: 1; /* Take up remaining space */
+    background-color: #fff; /* White background */
+    padding: 20px;
+    margin-right: 20px; /* Add spacing between main content and sidebar */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+.main h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.main p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 50%; /* Set width */
+    background: #fff; /* White background */
+    padding: 20px;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+.sidebar h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.sidebar p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+.sidebar img{
+    width: 50%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container2 {
+        flex-direction: column; /* Stack elements on smaller screens */
+    }
+
+    .main,
+    .sidebar {
+        width: 100%; /* Full width on smaller screens */
+        margin-right: 0; /* Remove margin between elements */
+    }
+}

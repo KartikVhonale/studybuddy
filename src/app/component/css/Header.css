@@ -1,0 +1,27 @@
+
+body{
+    background: white;
+}
+.container{
+    background: rgba(79, 185, 255, 0.918);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.container ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+
+.container ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.container ul li a{
+    text-decoration: none;
+    color: white;
+}

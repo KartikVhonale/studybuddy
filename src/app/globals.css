@@ -76,6 +76,7 @@
 * {
   box-sizing: border-box;
   padding: 0;
+<<<<<<< Updated upstream
   margin: 0;
 }
 
@@ -105,3 +106,7 @@ a {
     color-scheme: dark;
   }
 }
+=======
+  width: 100%;
+}
+>>>>>>> Stashed changes
